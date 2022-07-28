@@ -1,0 +1,25 @@
+Introduction
+
+
+
+Welcome to CSE46901. We have prepared a few milestones before the final project, in which you will use a physical robot to execute a mission given by us. The following milestones will give you an idea how to interact with ROBOTIS’ Turtlebot3 waffle Pi with a Manipulator Arm using the Robot Operating System.
+
+
+
+The third milestone is about ROS programming. In this milestone, you will write a ROS program to control the OpenManipulator on the Turtlebot by keyboard. The program should be similar to turtlebot3_teleop_key in milestone 1, but it will accept a few more keystrokes to control the robot arm. Your program should provide some basic functions such as setting the arm to some predefined poses and opening/closing the gripper. In addition, your program should read the current configuration of the arm and the gripper and display the information on the screen. Of course, please feel free to add more functionalities to your program. You can write your program in either C++ or Python. Please read the source code in these ROS packages you downloaded in the previous milestones in catkin_ws to learn about how to use ROS to control the arm: turtlebot3_manipulation/ turtlebot3_manipulation_gui and turtlebot3/turtlebot3_teleop. Please also refer to the ROS programming books and the official ROS tutorial.
+
+
+
+Submission requirement
+
+
+
+Hardware video demonstration submission is required for milestone3. (i.e. You may not demonstrate your code on simulation for a pass on this milestone.)  Nevertheless, you might be able to use a simulated milestone 2 environment to speed up development for the physical milestone 3 s. For detailed requirements, please refer to “demo requirement” at the end of this document.
+
+
+
+Once your group is done with the video demonstration, please submit it on the blackboard along with all of your source code. Each group will submit one video and a zip file with your group name (i.e. group_name.zip ) containing your source code. Rules for robot room usage will apply. Every member will be asked to be present during receiving/handing over the turtlebot in the robot room as our soft-policy to discourage free-riding.
+
+
+
+Once we verify that you have submitted the milestone requirement, you will be awarded Pass/Fail. You can resubmit videos to challenge your Fail status until the final project time period with no penalty for resubmission. (i.e. no difference between teams who get it right the first try vs teams who retries). However, do note that there is a logistical limit of each team being able to physically interact with the turtlebot.
